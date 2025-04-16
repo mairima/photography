@@ -5,9 +5,9 @@
 :root {
     --primary-font: "roboto", sans-serif;
     --secondary-font: "Regular 400", sans-serif;
-    --primary-color: #20373a; /* blue */
-    --secondary-color: #9caa81; /* yellow green */
-    --highlight-color: #418e81; /* green */
+    --primary-color: #20373a; /* Dark Slate Grey */
+    --secondary-color: #9caa81; /* Greenish Grey */
+    --highlight-color: #418e81; /* Sea Turtle Green */
     --highlight-color-light: #FFFFFF; /* white */
 }
 
