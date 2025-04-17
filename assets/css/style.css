@@ -94,10 +94,7 @@ h2 {
         text-align: center;
     }
 /* Feedback */
-#feedback.review {
-    height: 90vw;
-    width: 90vw;
-}
+
 .review img {
     height: 90%;
     width: 90%;
