@@ -76,18 +76,11 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
-
 
 /* Services */
-
-#services .card-footer {
-    font-weight: bold;
-    color: var(--highlight-color);
-    background-color: transparent;
-}
 
 #services .card {
     margin-bottom: 1.5rem;
@@ -110,7 +103,12 @@ h2 {
     width: 90%;
     border-radius: 50%;
 }   
-
+.star {
+    text-align: center;
+} 
+.fa-star {
+    color: rgb(255, 187, 0);
+    }
 
 /* Footer / contact */
 
