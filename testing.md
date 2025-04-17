@@ -45,6 +45,7 @@ I've tested my deployed project to check for responsiveness issues.
 | Workshop | ok |ok | ok | Works as expected |
 | Booking | ok | ok |ok  | Works as expected |
 | Servces | ok | ok | ok | Works as expected |
+|Feedback | ok | ok | ok | Works as expected |
 | 404 | ok |  ok| ok | Works as expected |
 ![Mockup image with techsini](documentation\screenshots\techsini-mockup.png)
 ## Browser Compatibility
@@ -63,7 +64,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
-|Page| Mobile | Desktop |
+|Page| | Desktop |
 | --- | --- | --- |
 |Home|      |ok|
 |Workshop|  |ok|
@@ -72,6 +73,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 |404|       |ok|
 ![Lighthouse result index html and workshop page](documentation\testing-images\performance-test.png)
 ![Lighthouse result booking html](documentation\testing-images\bookinglighthousetest.png)
+![Lighthouse result workshop html](documentation\screenshots\workshoplighthouse.png)
+![Lighthouse result success html](documentation\screenshots\successlighthouse.png)
 
 ## Defensive Programming
 
@@ -85,6 +88,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | Services | Feature is expected to display details of different services offered. | Verified that the page lists all services with relevant details. | Details were displayed as expected. | ok |
 | Workshop | Feature is expected to showcase a gallery of actual workshops and short description. | Verified that the Workshop contains clear images and text that aren't stretched, pixelated, and fully responsive. | Images are properly sized, and respond well to different device sizes. |ok|
 | Booking| Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. |ok|
+| Feedback| Feature is expected to enforce valid input types for show past clients and texts | Verified that the Workshop contains clear images and text that aren't stretched, pixelated, and fully responsive. |Images are properly sized, and respond well to different device sizes. |ok|
 | Social Links | Feature is expected to include working links to the club’s social platforms (Instagram, Facebook, etc.). | Clicked each social link to verify redirection to the correct platform page. | All links redirected to the correct platform pages, opening in new browser tabs. |ok|
 | 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. |ok|
 
@@ -100,6 +104,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | As a user | I would like assess the site on various browsers or any other device | so i can easily use the site no matter the browser with which i access it. |ok|
 | As a user | I would like to follow the Firm on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with Firms services and events. |ok|
 | As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. |ok|
+| As a user | I would like to see feedbacks | so that I can be convinced about the services|ok|
 | As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |ok|
 
 
