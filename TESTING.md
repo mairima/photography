@@ -47,6 +47,7 @@ I've tested my deployed project to check for responsiveness issues.
 | Servces | ok | ok | ok | Works as expected |
 |Feedback | ok | ok | ok | Works as expected |
 | 404 | ok |  ok| ok | Works as expected |
+
 ![Mockup image with techsini](documentation/screenshots/techsini-mockup.png)
 ## Browser Compatibility
 
