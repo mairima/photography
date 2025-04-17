@@ -16,11 +16,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
-|  | [404.html](https://github.com/mairima/photography/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/404.html) | ![screenshot](documentation\testing-images\404codetest.png) | positive |
-|  | [booking.html](https://github.com/mairima/photography/blob/main/booking.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/booking.html) | ![screenshot](documentation\testing-images\bookingcodetest.png) | positive |
-|  | [index.html](https://github.com/mairima/photography/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/index.html) | ![screenshot](documentation\testing-images\indexhtmlw3c.png) | positive|
-|  | [workshop.html](https://github.com/mairima/photography/blob/main/workshop.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/workshop.html) | ![screenshot](documentation\testing-images\positivetest.png) | positive|
-|  | [success.html](https://mairima.github.io/photography/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/success.html) | ![screenshot](documentation\testing-images\positivetest.png) | positive|
+|  | [404.html](https://github.com/mairima/photography/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/404.html) | ![screenshot](documentation/testing-images/404codetest.png) | positive |
+|  | [booking.html](https://github.com/mairima/photography/blob/main/booking.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/booking.html) | ![screenshot](documentation/testing-images/bookingcodetest.png) | positive |
+|  | [index.html](https://github.com/mairima/photography/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/index.html) | ![screenshot](documentation/testing-images/indexhtmlw3c.png) | positive|
+|  | [workshop.html](https://github.com/mairima/photography/blob/main/workshop.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/workshop.html) | ![screenshot](documentation/testing-images/positivetest.png) | positive|
+|  | [success.html](https://mairima.github.io/photography/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://mairima.github.io/photography/success.html) | ![screenshot](documentation/testing-images/positivetest.png) | positive|
 
 ### CSS
 
@@ -32,7 +32,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [style.css](https://github.com/mairima/photography/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://mairima.github.io/photography) | ![screenshot](documentation\testing-images\cssjigsawtest.png) | positive |
+| assets | [style.css](https://github.com/mairima/photography/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://mairima.github.io/photography) | ![screenshot](documentation/testing-images/cssjigsawtest.png) | positive |
 
 
 ## Responsiveness
@@ -47,7 +47,7 @@ I've tested my deployed project to check for responsiveness issues.
 | Servces | ok | ok | ok | Works as expected |
 |Feedback | ok | ok | ok | Works as expected |
 | 404 | ok |  ok| ok | Works as expected |
-![Mockup image with techsini](documentation\screenshots\techsini-mockup.png)
+![Mockup image with techsini](documentation/screenshots/techsini-mockup.png)
 ## Browser Compatibility
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
@@ -71,10 +71,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 |Booking|   |ok|
 |Success|   |ok|
 |404|       |ok|
-![Lighthouse result index html and workshop page](documentation\testing-images\performance-test.png)
-![Lighthouse result booking html](documentation\testing-images\bookinglighthousetest.png)
-![Lighthouse result workshop html](documentation\screenshots\workshoplighthouse.png)
-![Lighthouse result success html](documentation\screenshots\successlighthouse.png)
+
+![Lighthouse result index html and workshop page](documentation/testing-images/performance-test.png)
+![Lighthouse result booking html](documentation/testing-images/bookinglighthousetest.png)
+![Lighthouse result workshop html](documentation/screenshots/workshoplighthouse.png)
+![Lighthouse result success html](documentation/screenshots/successlighthouse.png)
 
 ## Defensive Programming
 
