@@ -91,21 +91,69 @@
                                 <label for="phone" class="form-label">Phone number</label>
                                 <input class="form-control" id="phone" name="phone" type="number" required>
                             </div>
+
+                            <!-- start  of service and workshop types -->
                             <div class="col-12 col-lg-6 mb-3">
-                                <label for="event-type" class="form-label">Service Type</label>
-                                <select id="event-type" class="form-select" name="event-type" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="photo">Photo Filming</option>
-                                    <option value="video">Video Filming</option>
-                                    <option value="photo-edit">Photo Editing</option>
-                                    <option value="video-edit">Video Editing</option>
-                                    <option value="photo-print">Photo Printing</option>
-                                    <option value="infographis-design">Infographic Design</option>
-                                    <option value="presentation-workshop">Presentation Workshop</option>
-                                    <option value="social-media-workshop">Social Media Post Workshops</option>
-                                    <option value="marketing-workshop">Marketing Design Workshopg</option>
-                                    <option value="reports-workshop">Reports Workshop</option>
-                                </select>
+                                <label for="event-type" class="form-label">Select Services and Workshops Type</label>
+                                <div class="dropdown">
+                                    <button class="form-control d-flex justify-content-between align-items-center"
+                                        type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span>Select Services</span>
+                                        <i class="bi bi-caret-down-fill"></i>
+                                     
+                                    </button>
+                                    <ul class="dropdown-menu p-3" style="width: 100%"
+                                        aria-labelledby="dropdownMenuButton">
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]" value="photo" />
+                                                Photo Filming</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]" value="video" />
+                                                Video Filming</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]" value="photo-edit" />
+                                                Photo Editing</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]" value="video-edit" />
+                                                Video Editing</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]" value="photo-print" />
+                                                Photo Printing</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]"
+                                                    value="infographis-design" />
+                                                Infographic Design</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]"
+                                                    value="presentation-workshop" />
+                                                Presentation Workshop</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]"
+                                                    value="social-media-workshop" />
+                                                Social Media Post
+                                                Workshops</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]"
+                                                    value="marketing-workshop" />
+                                                Marketing Design
+                                                Workshop</label>
+                                        </li>
+                                        <li>
+                                            <label><input type="checkbox" name="event-type[]"
+                                                    value="reports-workshop" />
+                                                Reports Workshop</label>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="col-12 mb-3">
                                 <label for="message" class="form-label">Message</label>
@@ -120,7 +168,7 @@
         </section>
     </main>
 
-     <!-- Footer / contact section -->
+    <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
         <div class="container section">
