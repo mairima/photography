@@ -96,6 +96,14 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+    .card .card-body .card-title {
+        text-align: center;
+    }
+  
+    
+    .card .card-body .card-text {
+        text-align: center;
+    }
 
 /* Game library cards */
 
