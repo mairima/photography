@@ -15,13 +15,9 @@
 
 #navbar {
     background-color: var(--primary-color);
+    position: static;
 }
-#navbar p {
-    margin-top: 12px;
-    font-weight: 600;
-    font-size: x-large;
 
-}
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -104,13 +100,17 @@ h2 {
     .card .card-body .card-text {
         text-align: center;
     }
-
-/* Game library cards */
-
-#new-games .card,
-#fav-games .card {
-    border: none;
+/* Feedback */
+#feedback.review {
+    height: 90vw;
+    width: 90vw;
 }
+.review img {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+}   
+
 
 /* Footer / contact */
 
@@ -147,6 +147,7 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
