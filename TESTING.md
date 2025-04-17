@@ -48,7 +48,6 @@ I've tested my deployed project to check for responsiveness issues.
 |Feedback | ok | ok | ok | Works as expected |
 | 404 | ok |  ok| ok | Works as expected |
 
-![Mockup image with techsini](documentation/screenshots/techsini-mockup.png)
 ## Browser Compatibility
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
